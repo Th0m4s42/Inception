@@ -83,8 +83,21 @@ make networks	# List Docker networks
 
 ## Resources
 
+https://www.ibm.com/fr-fr/think/topics/docker
+https://docs.docker.com/compose/
+https://doc.docker.com/get-started/
+https://www.debian.org/download.fr.html
+https://nginx.org/en/docs/
+https://nginx.org/en/docs/http/configuring_https_servers.html
+https://ssl-config.mozilla.org/#server=nginx&version=1.22.0&config=intermediate&openssl=3.0.0&guideline=5.7
+https://docs.openssl.org/master/
+https://www.ssllabs.com/ssltest/
+https://docs.docker.com/reference/dockerfile
+https://docs.docker.com/reference/cli/docker/container/run/
+https://docs.docker.com/compose/gettingstarted/
+
 ## A.I. Usages
 
-Decript obscur errors/warnings
+Decrypt obscur errors/warnings
 Correct some lines of scripts (bad inputs most of the time)
 Readme/User_doc/Dec_doc structure
