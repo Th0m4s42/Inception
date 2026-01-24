@@ -32,6 +32,14 @@ if [ ! -f wp-config.php ]; then
         --admin_email="$WORDPRESS_ADMIN_EMAIL" \
         --allow-root
 
+    echo "Creating additionnal WordPress user..."
+    php -d memory_limit=512M wp-cli.phar user create \
+        --user="$WORDPRESS_USER" \
+        --user_email="$WORDPRESS_EMAIL" \
+        --user_pass="$WORDPRESS_PASSWORD" \
+        --role=author \
+        --allow-root
+
 fi
 
 chmod 755 /srv

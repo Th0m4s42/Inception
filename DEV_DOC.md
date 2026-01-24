@@ -92,4 +92,4 @@ docker volume inspect <volume_name>
 
 ## Data
 
-All the data is stored the docker volumes to ensure the persistence (check docker-compose.yml for the path)
+**Data Storage:** Persistent volume at `/var/lib/mysql`
