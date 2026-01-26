@@ -90,6 +90,12 @@ docker network ls
 docker volume inspect <volume_name>
 ```
 
+## Usefull commands for check db
+
+```bash
+docker exec -it wordpress mariadb -h mariadb -u <login> -p<password> wordpress
+```
+
 ## Data
 
 **Data Storage:** Persistent volume at `/var/lib/mysql`
